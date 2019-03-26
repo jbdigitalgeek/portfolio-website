@@ -71,6 +71,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.hiddenboxes {
+	display:none;
+}
 
 /* Row */
 
