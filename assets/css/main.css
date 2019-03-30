@@ -1554,6 +1554,8 @@ input, select, textarea {
 	}
 
 		.image img {
+			border: 1px black double;
+			border-radius: 4px;
 			display: block;
 			width: 100%;
 		}
