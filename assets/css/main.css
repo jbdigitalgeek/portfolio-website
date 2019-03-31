@@ -1554,10 +1554,15 @@ input, select, textarea {
 	}
 
 		.image img {
+			border: 1px black double;
+			border-radius: 4px;
 			display: block;
 			width: 100%;
 		}
-
+.equalize {
+	
+	padding-bottom: 20px;
+}
 		.image.fit {
 			display: block;
 			width: 100%;
