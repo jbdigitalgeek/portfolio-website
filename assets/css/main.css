@@ -1466,12 +1466,18 @@ input, select, textarea {
 
 /* Form */
 
-	form label {
-		display: block;
+	form {
+		display: flex;
+		flex-wrap: wrap;
 		font-weight: 400;
 		color: #363636;
+		width: 100%;
 		margin: 0 0 1em 0;
+
 	}
+.name {
+	border: 1px solid lime;
+}
 
 	form input[type="text"],
 	form input[type="email"],
@@ -1560,7 +1566,6 @@ input, select, textarea {
 			width: 100%;
 		}
 .equalize {
-	
 	padding-bottom: 20px;
 }
 		.image.fit {
